@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipsteen - Kripik Kulit Patin Premium Kudus | Renyah, Gurih, Bikin Nagih!</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Nikmati Kripik Kulit Patin Premium Chipsteen dari Kudus. 100% kulit patin berkualitas tinggi, super renyah, gurih, kaya protein, kolagen, & Omega-3 tanpa pengawet. Tersedia dalam 5 varian rasa lezat!">
+    <meta name="keywords" content="Chipsteen, kripik kulit patin, keripik kulit ikan, camilan sehat Kudus, kulit patin crispy, kuliner Kudus, camilan premium, camilan tinggi protein">
+    <meta name="author" content="Chipsteen Indonesia">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chipsteen.com/">
+    <meta property="og:title" content="Chipsteen - Kripik Kulit Patin Premium Kudus">
+    <meta property="og:description" content="Camilan kulit patin premium yang renyah, gurih, dan bernutrisi tinggi. Pesan sekarang melalui WhatsApp!">
+    <meta property="og:image" content="poster.png">
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://chipsteen.com/">
+    <meta property="twitter:title" content="Chipsteen - Kripik Kulit Patin Premium Kudus">
+    <meta property="twitter:description" content="Camilan kulit patin premium yang renyah, gurih, dan bernutrisi tinggi. Pesan sekarang melalui WhatsApp!">
+    <meta property="twitter:image" content="poster.png">
+
+    <!-- Google Fonts: Poppins for Headings, Inter for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#F5A623',
+                        secondary: '#7A4419',
+                        dark: '#3B1F0A',
+                        cream: '#FDF3E3',
+                        success: '#2D6A2D'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif']
+                    },
+                    boxShadow: {
+                        'premium': '0 10px 30px -10px rgba(59, 31, 10, 0.15)',
+                        'premium-hover': '0 20px 40px -15px rgba(122, 68, 25, 0.3)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Premium Styles & Keyframes -->
+    <style>
+        .glass {
+            background: rgba(253, 243, 227, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .dark-glass {
+            background: rgba(59, 31, 10, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FDF3E3;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #7A4419;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3B1F0A;
+        }
+        /* Reveal on scroll animations default state */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+
+    <!-- Structured Data JSON-LD for Local Business & Product -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Chipsteen",
+      "image": "logo.png",
+      "description": "Kripik Kulit Patin Premium dari Kudus yang renyah, gurih, dan kaya akan protein.",
+      "telephone": "089524108217",
+      "email": "chipsteen@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jalan Ganesha II Purwosari",
+        "addressLocality": "Kota Kudus",
+        "addressRegion": "Jawa Tengah",
+        "postalCode": "59316",
+        "addressCountry": "ID"
+      },
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.instagram.com/chips.teen",
+        "https://www.tiktok.com/@chipsteen_"
+      ]
+    }
+    </script>
+</head>
+<body class="bg-cream font-sans text-dark overflow-x-hidden">
+
+    <!-- Loader Overlay -->
+    <div id="loader" class="fixed inset-0 z-[100] bg-dark flex flex-col items-center justify-center transition-opacity duration-700">
+        <div class="relative flex flex-col items-center">
+            <div class="w-24 h-24 rounded-full border-4 border-primary border-t-transparent animate-spin mb-6"></div>
+            <img src="logo.png" alt="Chipsteen Logo" class="absolute w-16 h-16 rounded-full top-4 object-cover animate-pulse" onerror="this.src='https://placehold.co/150x150/7A4419/F5A623?text=Chipsteen'">
+            <h2 class="font-heading font-extrabold text-2xl text-cream tracking-widest animate-bounce">CHIPSTEEN</h2>
+            <p class="text-primary text-xs uppercase tracking-widest mt-2 font-semibold">Renyah • Gurih • Bikin Nagih</p>
+        </div>
+    </div>
+
+    <!-- Sticky Glassmorphism Header -->
+    <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto glass rounded-2xl border border-white/20 shadow-premium py-3 px-6 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#hero" class="flex items-center gap-3 group">
+                <img src="logo.png" alt="Chipsteen Logo" class="w-12 h-12 rounded-full border-2 border-primary object-cover group-hover:scale-110 transition duration-300" onerror="this.src='https://placehold.co/100x100/7A4419/F5A623?text=Chipsteen'">
+                <div class="flex flex-col">
+                    <span class="font-heading font-extrabold text-xl leading-none text-dark tracking-wide">CHIPSTEEN</span>
+                    <span class="text-[10px] text-secondary font-bold tracking-widest uppercase">Kripik Kulit Patin</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden lg:flex items-center gap-8">
+                <a href="#hero" class="font-semibold text-sm hover:text-primary transition-colors duration-300">Beranda</a>
+                <a href="#tentang" class="font-semibold text-sm hover:text-primary transition-colors duration-300">Tentang</a>
+                <a href="#varian" class="font-semibold text-sm hover:text-primary transition-colors duration-300">Varian</a>
+                <a href="#nutrisi" class="font-semibold text-sm hover:text-primary transition-colors duration-300">Nutrisi</a>
+                <a href="#keunggulan" class="font-semibold text-sm hover:text-primary transition-colors duration-300">Keunggulan</a>
+                <a href="#testimoni" class="font-semibold text-sm hover:text-primary transition-colors duration-300">Testimoni</a>
+                <a href="#faq" class="font-semibold text-sm hover:text-primary transition-colors duration-300">FAQ</a>
+            </nav>
+
+            <!-- CTA Call to Action Desktop -->
+            <div class="hidden lg:flex items-center gap-4">
+                <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20tertarik%20ingin%20memesan%20kripik%20kulit%20patin%20yang%20renyah!" target="_blank" class="bg-primary hover:bg-secondary hover:text-cream text-dark font-heading font-extrabold text-xs px-6 py-3 rounded-xl shadow-premium hover:shadow-premium-hover transition-all duration-300 flex items-center gap-2 tracking-wider uppercase border border-primary/20">
+                    <i class="fab fa-whatsapp text-lg"></i>
+                    Pesan Sekarang
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="menu-toggle" class="lg:hidden text-dark text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden mt-2 max-w-7xl mx-auto glass rounded-2xl border border-white/20 shadow-premium p-6 flex flex-col gap-4 animate-fade-in">
+            <a href="#hero" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">Beranda</a>
+            <a href="#tentang" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">Tentang</a>
+            <a href="#varian" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">Varian</a>
+            <a href="#nutrisi" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">Nutrisi</a>
+            <a href="#keunggulan" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">Keunggulan</a>
+            <a href="#testimoni" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">Testimoni</a>
+            <a href="#faq" class="mobile-link font-semibold text-sm py-2 border-b border-dark/10 hover:text-primary transition duration-300">FAQ</a>
+            <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20tertarik%20ingin%20memesan%20kripik%20kulit%20patin%20yang%20renyah!" target="_blank" class="w-full bg-primary hover:bg-secondary hover:text-cream text-dark font-heading font-extrabold text-sm py-3 rounded-xl shadow-premium text-center flex items-center justify-center gap-2 transition duration-300">
+                <i class="fab fa-whatsapp text-xl"></i>
+                PESAN SEKARANG
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen pt-32 pb-20 px-4 md:px-8 relative overflow-hidden flex items-center bg-gradient-to-b from-cream via-cream to-[#FDF3E3]">
+        <!-- Decorative subtle geometric warm backdrops -->
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 -left-20 w-80 h-80 bg-secondary/15 rounded-full blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+            
+            <!-- Hero Left: Sales Copy -->
+            <div class="flex flex-col gap-6 text-center lg:text-left">
+                <div>
+                    <!-- Trust Badge -->
+                    <span class="inline-flex items-center gap-2 bg-secondary text-primary font-bold text-xs px-4 py-2 rounded-full border border-primary/20 uppercase tracking-widest shadow-sm">
+                        <i class="fas fa-award text-primary"></i>
+                        100% Kulit Patin Berkualitas
+                    </span>
+                </div>
+                
+                <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-dark leading-tight">
+                    Kripik Kulit Patin <span class="text-primary relative inline-block">Premium<span class="absolute bottom-2 left-0 w-full h-3 bg-primary/20 -z-10"></span></span> dari Kudus
+                </h1>
+                
+                <p class="text-secondary font-heading font-bold text-lg sm:text-xl tracking-wide uppercase">
+                    Renyah, Gurih, Bikin Nagih!
+                </p>
+                
+                <p class="text-secondary/80 text-base max-w-lg mx-auto lg:mx-0 leading-relaxed font-normal">
+                    Inovasi camilan sehat yang dibuat langsung dari kulit ikan patin pilihan berkualitas ekspor. Diolah higienis menghasilkan sensasi super renyah tanpa aroma amis. Nikmat tiada tara, pas untuk keluarga Anda!
+                </p>
+
+                <!-- CTA Action Button Group -->
+                <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mt-4">
+                    <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20ingin%20memesan%20kripik%20kulit%20patin.%20Varian%20apa%20saja%20yang%20ready?" target="_blank" class="w-full sm:w-auto bg-success hover:bg-[#205020] text-white font-heading font-extrabold text-base px-8 py-4 rounded-xl shadow-premium hover:shadow-premium-hover transition-all duration-300 flex items-center justify-center gap-3 transform hover:-translate-y-1">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                        Pesan via WhatsApp
+                    </a>
+                    <a href="#varian" class="w-full sm:w-auto bg-transparent border-2 border-secondary/40 hover:border-secondary hover:bg-secondary hover:text-cream text-secondary font-heading font-semibold text-base px-8 py-4 rounded-xl transition-all duration-300 flex items-center justify-center gap-2">
+                        <i class="fas fa-list"></i>
+                        Lihat Varian Rasa
+                    </a>
+                </div>
+
+                <!-- Trusted indicators -->
+                <div class="flex items-center justify-center lg:justify-start gap-6 mt-6 pt-6 border-t border-secondary/10">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-shield-halved text-success text-2xl"></i>
+                        <span class="text-xs font-semibold text-secondary">Bahan Baku Pilihan</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-truck text-primary text-2xl"></i>
+                        <span class="text-xs font-semibold text-secondary">Bisa COD Kudus</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Right: Interactive Product Image Showcase -->
+            <div class="relative flex justify-center items-center h-[400px] sm:h-[500px]">
+                <!-- Outer floating gradient ring -->
+                <div class="absolute w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] rounded-full bg-gradient-to-tr from-primary to-secondary opacity-20 blur-2xl animate-pulse"></div>
+                <div class="absolute w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] rounded-full border-2 border-dashed border-secondary/20 animate-[spin_40s_linear_infinite]"></div>
+
+                <!-- Main Poster Frame -->
+                <div class="relative z-10 w-[290px] sm:w-[380px] aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white transition-all duration-500 hover:scale-105 group cursor-pointer" id="open-poster-modal-img">
+                    <img src="poster.png" alt="Chipsteen Poster Utama" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" onerror="this.src='https://placehold.co/600x600/7A4419/FDF3E3?text=Chipsteen+Poster+Product'">
+                    <!-- Glassmorphic Overlay Hover Effect -->
+                    <div class="absolute inset-0 bg-dark/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <button class="bg-primary text-dark px-4 py-2 rounded-lg font-heading font-bold text-xs uppercase flex items-center gap-2 shadow-lg">
+                            <i class="fas fa-maximize"></i> Lihat Poster Penuh
+                        </button>
+                    </div>
+                </div>
+
+                <!-- FLOATING CARD 1: Price -->
+                <div class="absolute top-8 left-4 sm:left-8 z-20 glass rounded-2xl border border-white/40 shadow-premium p-4 flex items-center gap-3 animate-bounce" style="animation-duration: 4s;">
+                    <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-dark text-lg font-bold">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] text-secondary font-bold uppercase tracking-wider">Harga Promo</p>
+                        <p class="font-heading font-extrabold text-base text-dark">Rp13.000 / pcs</p>
+                    </div>
+                </div>
+
+                <!-- FLOATING CARD 2: Rating -->
+                <div class="absolute bottom-8 right-2 sm:right-6 z-20 glass rounded-2xl border border-white/40 shadow-premium p-4 flex items-center gap-3 animate-bounce" style="animation-duration: 5s;">
+                    <div class="w-10 h-10 rounded-full bg-yellow-500 flex items-center justify-center text-white text-lg font-bold">
+                        <i class="fas fa-star text-dark"></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] text-secondary font-bold uppercase tracking-wider">Rating Pelanggan</p>
+                        <p class="font-heading font-extrabold text-base text-dark">4.9 / 5.0 (Hebat)</p>
+                    </div>
+                </div>
+
+                <!-- FLOATING BADGE: Terlaris -->
+                <div class="absolute -top-4 right-10 z-20 bg-primary text-dark font-heading font-extrabold text-xs px-4 py-2 rounded-full shadow-lg border-2 border-white uppercase tracking-widest animate-pulse">
+                    Terlaris No. 1
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Poster Modal with X/Close Button -->
+    <div id="poster-modal" class="fixed inset-0 z-[120] hidden bg-dark/95 backdrop-blur-md flex items-center justify-center p-4 transition-all duration-500 opacity-0">
+        <div class="relative max-w-3xl w-full max-h-[90vh] flex flex-col items-center justify-center scale-95 transition-transform duration-500" id="poster-modal-content">
+            <!-- Close Button (X & Kembali Text) -->
+            <button id="close-modal-btn" class="absolute -top-16 md:top-4 md:-right-24 bg-primary hover:bg-secondary text-dark hover:text-cream px-5 py-3 rounded-full font-heading font-extrabold text-sm flex items-center gap-2 shadow-2xl transition duration-300 transform hover:scale-105">
+                <i class="fas fa-xmark text-lg"></i>
+            </button>
+            <!-- Poster Image in Modal -->
+            <div class="w-full h-full flex items-center justify-center">
+                <img src="poster.png" alt="Chipsteen Poster Utama" class="max-h-[80vh] w-auto object-contain rounded-3xl border-4 border-white/10 shadow-2xl" onerror="this.src='https://placehold.co/800x1200/7A4419/FDF3E3?text=Chipsteen+Poster'">
+            </div>
+        </div>
+    </div>
+
+    <!-- Brand Statistics -->
+    <section class="py-12 bg-dark text-cream relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center" id="counter-section">
+                <!-- Counter 1 -->
+                <div class="flex flex-col gap-2 border-r border-cream/10 last:border-none">
+                    <p class="font-heading font-extrabold text-4xl sm:text-5xl text-primary flex items-center justify-center">
+                        <span class="counter" data-target="1000">0</span>+
+                    </p>
+                    <p class="text-xs sm:text-sm text-cream/70 font-medium uppercase tracking-wider">Produk Terjual</p>
+                </div>
+                <!-- Counter 2 -->
+                <div class="flex flex-col gap-2 border-r border-cream/10 last:border-none">
+                    <p class="font-heading font-extrabold text-4xl sm:text-5xl text-primary flex items-center justify-center">
+                        <span class="counter" data-target="500">0</span>+
+                    </p>
+                    <p class="text-xs sm:text-sm text-cream/70 font-medium uppercase tracking-wider">Pelanggan Puas</p>
+                </div>
+                <!-- Counter 3 -->
+                <div class="flex flex-col gap-2 border-r border-cream/10 last:border-none">
+                    <p class="font-heading font-extrabold text-4xl sm:text-5xl text-primary flex items-center justify-center">
+                        <span class="counter" data-target="5">0</span> Rasa
+                    </p>
+                    <p class="text-xs sm:text-sm text-cream/70 font-medium uppercase tracking-wider">Varian Spesial</p>
+                </div>
+                <!-- Counter 4 -->
+                <div class="flex flex-col gap-2 last:border-none">
+                    <p class="font-heading font-extrabold text-4xl sm:text-5xl text-primary flex items-center justify-center">
+                        <span class="counter-float" data-target="4.9">0</span>/5
+                    </p>
+                    <p class="text-xs sm:text-sm text-cream/70 font-medium uppercase tracking-wider">Rating Kepuasan</p>
+                </div>
+            </div>
+        </div>
+        <!-- Abstract fish outline decoration background -->
+        <div class="absolute -right-16 bottom-0 opacity-10 text-cream pointer-events-none">
+            <i class="fas fa-fish text-[150px]"></i>
+        </div>
+    </section>
+
+    <!-- Tentang Produk -->
+    <section id="tentang" class="py-24 px-4 md:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Left: Mascot and Logo Branding Box -->
+            <div class="reveal relative flex justify-center order-2 lg:order-1">
+                <div class="absolute inset-0 bg-primary/10 rounded-full filter blur-3xl"></div>
+                <!-- Circular mascot frame -->
+                <div class="relative z-10 w-[300px] sm:w-[400px] aspect-square rounded-full overflow-hidden border-8 border-white shadow-2xl transition duration-500 hover:scale-105">
+                    <img src="logo.png" alt="Mascot Chipsteen" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x400/7A4419/FDF3E3?text=Chipsteen+Mascot'">
+                </div>
+            </div>
+
+            <!-- Right: Features / Brand narrative -->
+            <div class="reveal flex flex-col gap-6 text-center order-1 lg:order-2">
+                <div>
+                    <span class="text-xs font-bold text-primary uppercase tracking-widest border-b-2 border-primary/40 pb-1">Our Story & Quality</span>
+                </div>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-dark leading-tight">
+                    Mengapa Memilih Kripik Kulit Patin Chipsteen?
+                </h2>
+                <p class="text-secondary/80 leading-relaxed text-base">
+                    Kami memahami bahwa camilan terbaik lahir dari dedikasi dan bahan berkualitas. Chipsteen diproses melalui teknologi masak modern dengan mengutamakan standar higienitas tinggi. Dibuat langsung oleh UMKM Kudus dengan resep tradisional yang disempurnakan.
+                </p>
+
+                <!-- Value Highlights List -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                    <div class="flex items-start gap-3 bg-white/50 p-4 rounded-xl border border-secondary/5 shadow-sm">
+                        <span class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary text-sm flex-shrink-0 mt-0.5">
+                            <i class="fas fa-fish"></i>
+                        </span>
+                        <div>
+                            <h4 class="font-heading font-bold text-sm text-dark">Kulit Patin Pilihan</h4>
+                            <p class="text-xs text-secondary/75">Hanya menggunakan kulit ikan patin segar kualitas premium.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white/50 p-4 rounded-xl border border-secondary/5 shadow-sm">
+                        <span class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary text-sm flex-shrink-0 mt-0.5">
+                            <i class="fas fa-star-half-stroke"></i>
+                        </span>
+                        <div>
+                            <h4 class="font-heading font-bold text-sm text-dark">Tekstur Renyah & Gurih</h4>
+                            <p class="text-xs text-secondary/75">Teknik penggorengan khusus sehingga tidak berminyak.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white/50 p-4 rounded-xl border border-secondary/5 shadow-sm">
+                        <span class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary text-sm flex-shrink-0 mt-0.5">
+                            <i class="fas fa-ban"></i>
+                        </span>
+                        <div>
+                            <h4 class="font-heading font-bold text-sm text-dark">Tanpa Pengawet</h4>
+                            <p class="text-xs text-secondary/75">Sangat aman dinikmati seluruh anggota keluarga.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 bg-white/50 p-4 rounded-xl border border-secondary/5 shadow-sm">
+                        <span class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-primary text-sm flex-shrink-0 mt-0.5">
+                            <i class="fas fa-heart-pulse"></i>
+                        </span>
+                        <div>
+                            <h4 class="font-heading font-bold text-sm text-dark">Super Gizi & Protein</h4>
+                            <p class="text-xs text-secondary/75">Kaya zat gizi fungsional seperti Kolagen alami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Varian Rasa Section -->
+    <section id="varian" class="py-24 bg-[#F5EAD4] px-4 md:px-8">
+        <div class="max-w-7xl mx-auto text-center mb-16">
+            <span class="text-xs font-bold text-secondary uppercase tracking-widest border-b-2 border-secondary/40 pb-1">Taste our Masterpieces</span>
+            <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-dark mt-4">
+                Pilih Varian Rasa Favoritmu
+            </h2>
+            <p class="text-secondary/80 max-w-xl mx-auto text-sm mt-2">
+                Dari kelezatan cita rasa gurih klasik hingga gurih modern dengan bumbu premium pilihan yang menempel sempurna.
+            </p>
+        </div>
+
+        <!-- 5 Grid Varian Rasa Cards -->
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <!-- Varian 1: Original -->
+            <div class="reveal bg-white rounded-3xl overflow-hidden shadow-premium hover:shadow-premium-hover border border-secondary/10 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+                <div class="relative overflow-hidden aspect-square bg-[#7A4419]/10">
+                    <img src="poster.png" alt="Original Flavor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/300x300/F5A623/FDF3E3?text=Original'">
+                    <span class="absolute top-3 left-3 bg-secondary text-primary font-heading font-extrabold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="p-5 flex flex-col justify-between flex-grow">
+                    <div>
+                        <h3 class="font-heading font-extrabold text-lg text-dark group-hover:text-primary transition-colors duration-300">Original</h3>
+                        <p class="text-xs text-secondary/80 mt-2 leading-relaxed">Rasa otentik kulit patin renyah dengan racikan garam dan bawang putih khas tradisional gurih.</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-dark/10 flex items-center justify-between">
+                        <span class="font-heading font-black text-secondary">Rp13.000</span>
+                        <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20mau%20pesan%20varian%20Original" class="w-8 h-8 rounded-full bg-primary hover:bg-secondary text-dark hover:text-cream flex items-center justify-center transition-colors duration-300 shadow-md">
+                            <i class="fas fa-shopping-cart text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Varian 2: Salted Egg -->
+            <div class="reveal bg-white rounded-3xl overflow-hidden shadow-premium hover:shadow-premium-hover border border-secondary/10 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group" style="transition-delay: 100ms;">
+                <div class="relative overflow-hidden aspect-square bg-[#7A4419]/10">
+                    <img src="poster.png" alt="Salted Egg Flavor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/300x300/F5A623/FDF3E3?text=Salted+Egg'">
+                    <span class="absolute top-3 left-3 bg-primary text-dark font-heading font-extrabold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                        Premium
+                    </span>
+                </div>
+                <div class="p-5 flex flex-col justify-between flex-grow">
+                    <div>
+                        <h3 class="font-heading font-extrabold text-lg text-dark group-hover:text-primary transition-colors duration-300">Salted Egg</h3>
+                        <p class="text-xs text-secondary/80 mt-2 leading-relaxed">Gourmet flavor dengan paduan rasa telur asin creamy, sedikit manis, berpadu wangi daun jeruk pilihan.</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-dark/10 flex items-center justify-between">
+                        <span class="font-heading font-black text-secondary">Rp13.000</span>
+                        <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20mau%20pesan%20varian%20Salted%20Egg" class="w-8 h-8 rounded-full bg-primary hover:bg-secondary text-dark hover:text-cream flex items-center justify-center transition-colors duration-300 shadow-md">
+                            <i class="fas fa-shopping-cart text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Varian 3: Spicy -->
+            <div class="reveal bg-white rounded-3xl overflow-hidden shadow-premium hover:shadow-premium-hover border border-secondary/10 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group" style="transition-delay: 200ms;">
+                <div class="relative overflow-hidden aspect-square bg-[#7A4419]/10">
+                    <img src="poster.png" alt="Spicy Flavor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/300x300/F5A623/FDF3E3?text=Spicy'">
+                    <span class="absolute top-3 left-3 bg-red-600 text-white font-heading font-extrabold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                        Hot Seller
+                    </span>
+                </div>
+                <div class="p-5 flex flex-col justify-between flex-grow">
+                    <div>
+                        <h3 class="font-heading font-extrabold text-lg text-dark group-hover:text-primary transition-colors duration-300">Spicy</h3>
+                        <p class="text-xs text-secondary/80 mt-2 leading-relaxed">Racikan bubuk cabai merah pilihan yang meledak di lidah, menantang para pecinta sensasi pedas sejati.</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-dark/10 flex items-center justify-between">
+                        <span class="font-heading font-black text-secondary">Rp13.000</span>
+                        <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20mau%20pesan%20varian%20Spicy" class="w-8 h-8 rounded-full bg-primary hover:bg-secondary text-dark hover:text-cream flex items-center justify-center transition-colors duration-300 shadow-md">
+                            <i class="fas fa-shopping-cart text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Varian 4: Rumput Laut -->
+            <div class="reveal bg-white rounded-3xl overflow-hidden shadow-premium hover:shadow-premium-hover border border-secondary/10 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group" style="transition-delay: 300ms;">
+                <div class="relative overflow-hidden aspect-square bg-[#7A4419]/10">
+                    <img src="poster.png" alt="Seaweed Flavor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/300x300/F5A623/FDF3E3?text=Seaweed'">
+                    <span class="absolute top-3 left-3 bg-green-700 text-white font-heading font-extrabold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                        Kids Choice
+                    </span>
+                </div>
+                <div class="p-5 flex flex-col justify-between flex-grow">
+                    <div>
+                        <h3 class="font-heading font-extrabold text-lg text-dark group-hover:text-primary transition-colors duration-300">Rumput Laut</h3>
+                        <p class="text-xs text-secondary/80 mt-2 leading-relaxed">Sensasi manis gurih rumput laut (nori) alami Jepang. Varian super ramah anak dan kaya nutrisi.</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-dark/10 flex items-center justify-between">
+                        <span class="font-heading font-black text-secondary">Rp13.000</span>
+                        <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20mau%20pesan%20varian%20Rumput%20Laut" class="w-8 h-8 rounded-full bg-primary hover:bg-secondary text-dark hover:text-cream flex items-center justify-center transition-colors duration-300 shadow-md">
+                            <i class="fas fa-shopping-cart text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Varian 5: Keju -->
+            <div class="reveal bg-white rounded-3xl overflow-hidden shadow-premium hover:shadow-premium-hover border border-secondary/10 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group" style="transition-delay: 400ms;">
+                <div class="relative overflow-hidden aspect-square bg-[#7A4419]/10">
+                    <img src="poster.png" alt="Cheese Flavor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/300x300/F5A623/FDF3E3?text=Cheese'">
+                    <span class="absolute top-3 left-3 bg-yellow-600 text-white font-heading font-extrabold text-[10px] uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                        Favorite
+                    </span>
+                </div>
+                <div class="p-5 flex flex-col justify-between flex-grow">
+                    <div>
+                        <h3 class="font-heading font-extrabold text-lg text-dark group-hover:text-primary transition-colors duration-300">Keju</h3>
+                        <p class="text-xs text-secondary/80 mt-2 leading-relaxed">Nikmat keju cheddar premium gurih melimpah yang menyelimuti kripik garing di setiap gigitan.</p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-dark/10 flex items-center justify-between">
+                        <span class="font-heading font-black text-secondary">Rp13.000</span>
+                        <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20mau%20pesan%20varian%20Keju" class="w-8 h-8 rounded-full bg-primary hover:bg-secondary text-dark hover:text-cream flex items-center justify-center transition-colors duration-300 shadow-md">
+                            <i class="fas fa-shopping-cart text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kandungan Gizi Section -->
+    <section id="nutrisi" class="py-24 px-4 md:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs font-bold text-primary uppercase tracking-widest border-b-2 border-primary/40 pb-1">Nutrient Facts</span>
+            <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-dark mt-4">
+                Kaya Kandungan Gizi Baik
+            </h2>
+            <p class="text-secondary/80 max-w-xl mx-auto text-sm mt-2">
+                Tidak sekadar nikmat sebagai camilan, Chipsteen juga berkontribusi positif memenuhi kebutuhan asupan gizi harian Anda secara cerdas.
+            </p>
+        </div>
+
+        <!-- Scroll reveal grid of 6 nutritional indicators -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Gizi 1: Protein Tinggi -->
+            <div class="reveal bg-white border border-secondary/10 p-8 rounded-3xl shadow-premium flex items-start gap-6 hover:shadow-premium-hover hover:border-primary/50 transition duration-300">
+                <span class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl flex-shrink-0">
+                    <i class="fas fa-dumbbell"></i>
+                </span>
+                <div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Protein Tinggi</h3>
+                    <p class="text-sm text-secondary/80 mt-2 leading-relaxed">Mendukung metabolisme pertumbuhan sel dan penguatan otot tubuh yang optimal setiap hari.</p>
+                </div>
+            </div>
+
+            <!-- Gizi 2: Omega 3 -->
+            <div class="reveal bg-white border border-secondary/10 p-8 rounded-3xl shadow-premium flex items-start gap-6 hover:shadow-premium-hover hover:border-primary/50 transition duration-300">
+                <span class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl flex-shrink-0">
+                    <i class="fas fa-heart-pulse"></i>
+                </span>
+                <div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Omega-3 Alami</h3>
+                    <p class="text-sm text-secondary/80 mt-2 leading-relaxed">Asam lemak esensial luar biasa yang terbukti sangat baik memelihara sirkulasi & kesehatan jantung.</p>
+                </div>
+            </div>
+
+            <!-- Gizi 3: Kolagen Alami -->
+            <div class="reveal bg-white border border-secondary/10 p-8 rounded-3xl shadow-premium flex items-start gap-6 hover:shadow-premium-hover hover:border-primary/50 transition duration-300">
+                <span class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl flex-shrink-0">
+                    <i class="fas fa-leaf"></i>
+                </span>
+                <div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Kaya Kolagen</h3>
+                    <p class="text-sm text-secondary/80 mt-2 leading-relaxed">Berfungsi mempercepat regenerasi kulit secara alami, menjaga elastisitas, serta mencegah penuaan.</p>
+                </div>
+            </div>
+
+            <!-- Gizi 4: Kalsium -->
+            <div class="reveal bg-white border border-secondary/10 p-8 rounded-3xl shadow-premium flex items-start gap-6 hover:shadow-premium-hover hover:border-primary/50 transition duration-300">
+                <span class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl flex-shrink-0">
+                    <i class="fas fa-bone"></i>
+                </span>
+                <div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Kalsium Tinggi</h3>
+                    <p class="text-sm text-secondary/80 mt-2 leading-relaxed">Zat mikro esensial krusial guna memperkuat kepadatan struktur tulang dan fungsi gigi alami.</p>
+                </div>
+            </div>
+
+            <!-- Gizi 5: Fosfor -->
+            <div class="reveal bg-white border border-secondary/10 p-8 rounded-3xl shadow-premium flex items-start gap-6 hover:shadow-premium-hover hover:border-primary/50 transition duration-300">
+                <span class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl flex-shrink-0">
+                    <i class="fas fa-circle-nodes"></i>
+                </span>
+                <div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Fosfor</h3>
+                    <p class="text-sm text-secondary/80 mt-2 leading-relaxed">Berfungsi vital dalam membantu mengoptimalkan proses regenerasi sel DNA dalam sel tubuh.</p>
+                </div>
+            </div>
+
+            <!-- Gizi 6: Zat Besi -->
+            <div class="reveal bg-white border border-secondary/10 p-8 rounded-3xl shadow-premium flex items-start gap-6 hover:shadow-premium-hover hover:border-primary/50 transition duration-300">
+                <span class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl flex-shrink-0">
+                    <i class="fas fa-dna"></i>
+                </span>
+                <div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Zat Besi</h3>
+                    <p class="text-sm text-secondary/80 mt-2 leading-relaxed">Menjaga kelancaran produksi sel darah merah sehingga menghindarkan risiko anemia dini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan Produk Grid -->
+    <section id="keunggulan" class="py-24 bg-[#FDF3E3] border-t border-b border-secondary/10 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-xs font-bold text-secondary uppercase tracking-widest border-b-2 border-secondary/40 pb-1">Uncompromising Quality</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-dark mt-4">
+                    Keunggulan Utama Chipsteen
+                </h2>
+                <p class="text-secondary/80 max-w-xl mx-auto text-sm mt-2">
+                    Setiap rempah, proses, hingga pengemasan dirancang demi menjamin kenikmatan maksimal di genggaman Anda.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="reveal bg-white p-8 rounded-3xl shadow-premium border border-secondary/5 flex flex-col gap-4 hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl">
+                        <i class="fas fa-shield"></i>
+                    </div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Kulit Patin Pilihan</h3>
+                    <p class="text-sm text-secondary/80 leading-relaxed">Dipilah ketat langsung dari peternakan patin lokal yang terjamin bersih dan menerapkan pola budidaya sehat.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="reveal bg-white p-8 rounded-3xl shadow-premium border border-secondary/5 flex flex-col gap-4 hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl">
+                        <i class="fas fa-face-smile"></i>
+                    </div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Renyah & Tidak Amis</h3>
+                    <p class="text-sm text-secondary/80 leading-relaxed">Rasa gurih seimbang, bersih tanpa bau lumpur atau amis ikan berkat teknik marinasi bumbu rempah melimpah.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="reveal bg-white p-8 rounded-3xl shadow-premium border border-secondary/5 flex flex-col gap-4 hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Sama Sekali Tanpa Pengawet</h3>
+                    <p class="text-sm text-secondary/80 leading-relaxed">Keawetan produk kami tercipta murni berkat tingkat kekeringan penggorengan yang sempurna & pengemasan rapat.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="reveal bg-white p-8 rounded-3xl shadow-premium border border-secondary/5 flex flex-col gap-4 hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Sangat Cocok Semua Usia</h3>
+                    <p class="text-sm text-secondary/80 leading-relaxed">Sajian camilan gurih bersahabat yang aman disantap mulai dari si kecil, remaja produktif, hingga orang tua.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="reveal bg-white p-8 rounded-3xl shadow-premium border border-secondary/5 flex flex-col gap-4 hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Camilan Sehat & Bergizi</h3>
+                    <p class="text-sm text-secondary/80 leading-relaxed">Padat asupan gizi makro dan mikro, alternatif paling cerdas pengganti kerupuk tepung biasa di pasaran.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="reveal bg-white p-8 rounded-3xl shadow-premium border border-secondary/5 flex flex-col gap-4 hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary text-2xl">
+                        <i class="fas fa-fire-flame-curved"></i>
+                    </div>
+                    <h3 class="font-heading font-extrabold text-lg text-dark">Nagih Sejak Gigitan Pertama</h3>
+                    <p class="text-sm text-secondary/80 leading-relaxed">Formulasi bumbu premium istimewa yang terus mengundang selera Anda tanpa henti demi keceriaan kumpul.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimoni" class="py-24 px-4 md:px-8 max-w-7xl mx-auto overflow-hidden">
+        <div class="text-center mb-16">
+            <span class="text-xs font-bold text-primary uppercase tracking-widest border-b-2 border-primary/40 pb-1">Real Reviews</span>
+            <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-dark mt-4">
+                Apa Kata Pelanggan Setia?
+            </h2>
+            <p class="text-secondary/80 max-w-xl mx-auto text-sm mt-2">
+                Simak testimoni tulus dari mereka yang telah jatuh cinta dengan kelezatan gurih Chipsteen.
+            </p>
+        </div>
+
+        <!-- Slider Container with JS controls -->
+        <div class="relative max-w-4xl mx-auto">
+            <div class="relative overflow-hidden rounded-3xl bg-white p-8 sm:p-12 shadow-premium border border-secondary/10">
+                <div id="testimonial-container" class="transition-transform duration-500 flex">
+                    <!-- Slide 1 -->
+                    <div class="w-full flex-shrink-0 flex flex-col items-center text-center px-4">
+                        <div class="flex items-center gap-1 text-primary text-lg mb-4">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-base sm:text-lg text-secondary/90 italic leading-relaxed max-w-2xl">
+                            "Kripiknya sama sekali tidak berbau amis! Rasanya gila banget enaknya, apalagi yang Salted Egg gurihnya creamy pas. Bakal re-order lagi buat stok nonton drakor."
+                        </p>
+                        <div class="mt-6 flex items-center gap-3">
+                            <img src="https://placehold.co/100x100/3B1F0A/F5A623?text=Anisa" alt="Customer Anisa" class="w-12 h-12 rounded-full object-cover border-2 border-primary">
+                            <div class="text-left">
+                                <h4 class="font-heading font-extrabold text-sm text-dark">Anisa Rahmawati</h4>
+                                <p class="text-xs text-secondary/70">Mahasiswi, Kudus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="w-full flex-shrink-0 flex flex-col items-center text-center px-4">
+                        <div class="flex items-center gap-1 text-primary text-lg mb-4">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-base sm:text-lg text-secondary/90 italic leading-relaxed max-w-2xl">
+                            "Anak-anak saya paling suka varian rumput laut. Sebagai ibu, saya merasa aman karena camilan ini tanpa pengawet tambahan, jadi pas buat bekal praktis sekolah."
+                        </p>
+                        <div class="mt-6 flex items-center gap-3">
+                            <img src="https://placehold.co/100x100/3B1F0A/F5A623?text=Dewi" alt="Customer Dewi" class="w-12 h-12 rounded-full object-cover border-2 border-primary">
+                            <div class="text-left">
+                                <h4 class="font-heading font-extrabold text-sm text-dark">Ibu Dewi Lestari</h4>
+                                <p class="text-xs text-secondary/70">Ibu Rumah Tangga, Purwosari</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="w-full flex-shrink-0 flex flex-col items-center text-center px-4">
+                        <div class="flex items-center gap-1 text-primary text-lg mb-4">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-base sm:text-lg text-secondary/90 italic leading-relaxed max-w-2xl">
+                            "Makan keripik kulit ikan patin ini renyah parah. Harganya Rp13.000 murah banget dibanding brand luar mall sejenis. Pengiriman super cepat ke area Kota Kudus!"
+                        </p>
+                        <div class="mt-6 flex items-center gap-3">
+                            <img src="https://placehold.co/100x100/3B1F0A/F5A623?text=Farhan" alt="Customer Farhan" class="w-12 h-12 rounded-full object-cover border-2 border-primary">
+                            <div class="text-left">
+                                <h4 class="font-heading font-extrabold text-sm text-dark">Farhan Saputra</h4>
+                                <p class="text-xs text-secondary/70">Pecinta Camilan, Kudus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dots Indicator Navigation -->
+            <div class="flex justify-center gap-2 mt-6" id="slider-dots">
+                <button class="w-3 h-3 rounded-full bg-primary transition duration-300" onclick="goToSlide(0)"></button>
+                <button class="w-3 h-3 rounded-full bg-secondary/30 transition duration-300" onclick="goToSlide(1)"></button>
+                <button class="w-3 h-3 rounded-full bg-secondary/30 transition duration-300" onclick="goToSlide(2)"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cara Pemesanan Interactive Section -->
+    <section class="py-24 bg-dark text-cream px-4 md:px-8 relative overflow-hidden">
+        <div class="absolute inset-0 bg-radial-gradient from-secondary to-dark opacity-35 pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <span class="text-xs font-bold text-primary uppercase tracking-widest border-b-2 border-primary/40 pb-1">Seamless Purchase</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl mt-4">
+                    Cara Mudah Memesan Chipsteen
+                </h2>
+                <p class="text-cream/70 max-w-xl mx-auto text-sm mt-2">
+                    Kami melayani pembelian secara mudah & fleksibel demi kenyamanan maksimal Anda berbelanja.
+                </p>
+            </div>
+
+            <!-- Order Grid Steps -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="reveal dark-glass p-8 rounded-3xl border border-cream/10 text-center flex flex-col items-center gap-4 hover:border-primary transition duration-300">
+                    <span class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl border-2 border-primary/40 shadow-inner">
+                        <i class="fab fa-whatsapp"></i>
+                    </span>
+                    <h3 class="font-heading font-extrabold text-lg text-white">1. Hubungi WhatsApp</h3>
+                    <p class="text-sm text-cream/70">Klik salah satu tombol pemesanan untuk langsung terhubung ke Admin WhatsApp resmi kami.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="reveal dark-glass p-8 rounded-3xl border border-cream/10 text-center flex flex-col items-center gap-4 hover:border-primary transition duration-300" style="transition-delay: 100ms;">
+                    <span class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl border-2 border-primary/40 shadow-inner">
+                        <i class="fas fa-list-check"></i>
+                    </span>
+                    <h3 class="font-heading font-extrabold text-lg text-white">2. Pilih Varian</h3>
+                    <p class="text-sm text-cream/70">Kirim daftar pesanan berupa jumlah pcs serta pilihan varian rasa yang Anda minati.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="reveal dark-glass p-8 rounded-3xl border border-cream/10 text-center flex flex-col items-center gap-4 hover:border-primary transition duration-300" style="transition-delay: 200ms;">
+                    <span class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl border-2 border-primary/40 shadow-inner">
+                        <i class="fas fa-location-dot"></i>
+                    </span>
+                    <h3 class="font-heading font-extrabold text-lg text-white">3. Tentukan Lokasi</h3>
+                    <p class="text-sm text-cream/70">Lengkapi data nama penerima serta alamat detail pengiriman untuk kalkulasi ongkos kirim.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="reveal dark-glass p-8 rounded-3xl border border-cream/10 text-center flex flex-col items-center gap-4 hover:border-primary transition duration-300" style="transition-delay: 300ms;">
+                    <span class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center text-primary text-2xl border-2 border-primary/40 shadow-inner">
+                        <i class="fas fa-truck-ramp-box"></i>
+                    </span>
+                    <h3 class="font-heading font-extrabold text-lg text-white">4. COD / Kirim Paket</h3>
+                    <p class="text-sm text-cream/70">Nikmati layanan pengiriman kurir lokal kami atau sistem Bayar di Tempat (COD) area Kudus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 px-4 md:px-8 max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs font-bold text-primary uppercase tracking-widest border-b-2 border-primary/40 pb-1">Frequently Asked Questions</span>
+            <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-dark mt-4">
+                Pertanyaan yang Sering Diajukan
+            </h2>
+            <p class="text-secondary/80 text-sm mt-2">
+                Temukan jawaban cepat untuk pertanyaan-pertanyaan mendasar seputar produk Chipsteen.
+            </p>
+        </div>
+
+        <!-- Accordions -->
+        <div class="flex flex-col gap-4">
+            <!-- FAQ 1 -->
+            <div class="reveal bg-white rounded-2xl border border-secondary/10 shadow-premium overflow-hidden transition-all duration-300">
+                <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none group" onclick="toggleFAQ(0)">
+                    <span class="font-heading font-extrabold text-sm sm:text-base text-dark group-hover:text-primary transition-colors">Berapa masa simpan produk Chipsteen?</span>
+                    <span class="text-primary text-lg transition-transform duration-300 transform" id="faq-icon-0"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="max-h-0 overflow-hidden transition-all duration-300" id="faq-answer-0">
+                    <p class="p-6 pt-0 text-sm text-secondary/80 border-t border-dark/5 leading-relaxed">
+                        Produk Chipsteen memiliki masa kedaluwarsa panjang hingga bulan April 2027 sesuai keterangan resmi di poster produk utama. Pastikan disimpan di wadah kedap udara sehabis dibuka.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="reveal bg-white rounded-2xl border border-secondary/10 shadow-premium overflow-hidden transition-all duration-300">
+                <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none group" onclick="toggleFAQ(1)">
+                    <span class="font-heading font-extrabold text-sm sm:text-base text-dark group-hover:text-primary transition-colors">Apakah produk ini 100% Halal?</span>
+                    <span class="text-primary text-lg transition-transform duration-300 transform" id="faq-icon-1"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="max-h-0 overflow-hidden transition-all duration-300" id="faq-answer-1">
+                    <p class="p-6 pt-0 text-sm text-secondary/80 border-t border-dark/5 leading-relaxed">
+                        Sangat halal. Seluruh bahan dasar berupa kulit ikan patin diperoleh dari pemasok lokal berlisensi dan diolah murni menggunakan rempah-rempah alami pilihan bebas zat non-halal.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="reveal bg-white rounded-2xl border border-secondary/10 shadow-premium overflow-hidden transition-all duration-300">
+                <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none group" onclick="toggleFAQ(2)">
+                    <span class="font-heading font-extrabold text-sm sm:text-base text-dark group-hover:text-primary transition-colors">Apakah bumbu rasa menggunakan bahan pengawet?</span>
+                    <span class="text-primary text-lg transition-transform duration-300 transform" id="faq-icon-2"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="max-h-0 overflow-hidden transition-all duration-300" id="faq-answer-2">
+                    <p class="p-6 pt-0 text-sm text-secondary/80 border-t border-dark/5 leading-relaxed">
+                        Sama sekali tidak. Pengawetan produk kami terjadi murni lewat teknik khusus penggorengan suhu tinggi terkontrol untuk membuang kadar minyak berlebih demi tingkat kekeringan kripik yang tahan lama.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="reveal bg-white rounded-2xl border border-secondary/10 shadow-premium overflow-hidden transition-all duration-300">
+                <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none group" onclick="toggleFAQ(3)">
+                    <span class="font-heading font-extrabold text-sm sm:text-base text-dark group-hover:text-primary transition-colors">Apakah bisa melayani sistem COD?</span>
+                    <span class="text-primary text-lg transition-transform duration-300 transform" id="faq-icon-3"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="max-h-0 overflow-hidden transition-all duration-300" id="faq-answer-3">
+                    <p class="p-6 pt-0 text-sm text-secondary/80 border-t border-dark/5 leading-relaxed">
+                        Ya, kami melayani COD (Bayar di Tempat) khusus untuk area Kudus (sekitaran wilayah operasional Purwosari dan Kota Kudus) guna efisiensi biaya dan keamanan Anda bertransaksi langsung.
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="reveal bg-white rounded-2xl border border-secondary/10 shadow-premium overflow-hidden transition-all duration-300">
+                <button class="w-full text-left p-6 flex justify-between items-center focus:outline-none group" onclick="toggleFAQ(4)">
+                    <span class="font-heading font-extrabold text-sm sm:text-base text-dark group-hover:text-primary transition-colors">Bagaimana prosedur pemesanannya?</span>
+                    <span class="text-primary text-lg transition-transform duration-300 transform" id="faq-icon-4"><i class="fas fa-plus"></i></span>
+                </button>
+                <div class="max-h-0 overflow-hidden transition-all duration-300" id="faq-answer-4">
+                    <p class="p-6 pt-0 text-sm text-secondary/80 border-t border-dark/5 leading-relaxed">
+                        Cukup klik tombol "Pesan Sekarang" atau hubungi WhatsApp Admin resmi kami di nomor 089524108217. Admin kami akan langsung merespons dan mencatat pesanan Anda secara cepat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Campaign Section -->
+    <section class="py-24 px-4 md:px-8 max-w-7xl mx-auto">
+        <div class="relative rounded-3xl overflow-hidden bg-gradient-to-r from-secondary to-dark text-cream p-8 sm:p-16 text-center shadow-2xl flex flex-col items-center gap-6">
+            <!-- Grid decorative backdrop -->
+            <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
+
+            <div class="relative z-10 flex flex-col items-center gap-4">
+                <span class="text-primary text-xs font-bold tracking-widest uppercase bg-primary/10 border border-primary/20 px-4 py-2 rounded-full">Dapatkan Sekarang Juga</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-5xl max-w-2xl leading-tight">
+                    Jangan Cuma Dilihat... Yuk, Cobain Chipsteen Sekarang!
+                </h2>
+                <p class="text-primary font-heading font-bold text-lg tracking-wide uppercase mt-2">
+                    Renyah, Gurih, Bikin Nagih!
+                </p>
+                <p class="text-cream/70 text-sm max-w-lg leading-relaxed">
+                    Nikmati sensasi kripik kulit patin premium terlezat yang diakui banyak pelanggan di Indonesia. Dijamin ketagihan di setiap gigitan pertamamu!
+                </p>
+
+                <!-- High conversion buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 items-center justify-center mt-6 w-full sm:w-auto">
+                    <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20tertarik%20ingin%20mencoba%20kripik%20kulit%20patin%20bikin%20nagih!" target="_blank" class="w-full sm:w-auto bg-primary hover:bg-[#d9921e] text-dark font-heading font-extrabold text-base px-8 py-4 rounded-xl shadow-lg transition duration-300 flex items-center justify-center gap-3">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                        Pesan Sekarang
+                    </a>
+                    <a href="https://www.instagram.com/chips.teen" target="_blank" class="w-full sm:w-auto bg-transparent border-2 border-cream/40 hover:border-cream text-cream font-heading font-bold text-base px-8 py-4 rounded-xl transition duration-300 flex items-center justify-center gap-2">
+                        <i class="fab fa-instagram text-xl"></i>
+                        Kunjungi Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-cream pt-20 pb-10 px-4 md:px-8 border-t border-primary/10">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 pb-16 border-b border-cream/10">
+            <!-- Col 1: Brand Info -->
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center gap-3">
+                    <img src="logo.png" alt="Chipsteen Logo" class="w-12 h-12 rounded-full border-2 border-primary object-cover" onerror="this.src='https://placehold.co/100x100/7A4419/F5A623?text=Chipsteen'">
+                    <span class="font-heading font-extrabold text-xl tracking-wide text-white">CHIPSTEEN</span>
+                </div>
+                <p class="text-xs text-cream/70 leading-relaxed">
+                    Pelopor inovasi kripik kulit patin sehat, renyah, dan bercita rasa premium dari Kudus, Jawa Tengah. Kami berkomitmen menyajikan kebahagiaan sejati di setiap kemasan camilan Anda.
+                </p>
+            </div>
+
+            <!-- Col 2: Varian Rasa List -->
+            <div class="flex flex-col gap-4">
+                <h3 class="font-heading font-extrabold text-base text-white tracking-wider">Varian Rasa</h3>
+                <ul class="flex flex-col gap-2 text-xs text-cream/70">
+                    <li class="hover:text-primary transition-colors"><a href="#varian">Original (Asli Tradisional)</a></li>
+                    <li class="hover:text-primary transition-colors"><a href="#varian">Salted Egg (Telur Asin Gurih)</a></li>
+                    <li class="hover:text-primary transition-colors"><a href="#varian">Spicy (Pedas Istimewa)</a></li>
+                    <li class="hover:text-primary transition-colors"><a href="#varian">Rumput Laut (Nori Lezat)</a></li>
+                    <li class="hover:text-primary transition-colors"><a href="#varian">Keju (Keju Cheddar Mewah)</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Kontak Detail -->
+            <div class="flex flex-col gap-4">
+                <h3 class="font-heading font-extrabold text-base text-white tracking-wider">Kontak Kami</h3>
+                <ul class="flex flex-col gap-3 text-xs text-cream/70">
+                    <li class="flex items-start gap-3">
+                        <span class="text-primary text-sm mt-0.5"><i class="fas fa-map-pin"></i></span>
+                        <span>Jalan Ganesha II Purwosari, Kota Kudus, Jawa Tengah</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-primary text-sm"><i class="fas fa-phone"></i></span>
+                        <a href="tel:089524108217" class="hover:underline">089524108217</a>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-primary text-sm"><i class="fas fa-envelope"></i></span>
+                        <a href="mailto:chipsteen@gmail.com" class="hover:underline">chipsteen@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Sosial Media -->
+            <div class="flex flex-col gap-4">
+                <h3 class="font-heading font-extrabold text-base text-white tracking-wider">Ikuti Sosial Media</h3>
+                <p class="text-xs text-cream/70 leading-relaxed">Dapatkan info promosi, diskon, dan kejutan camilan menarik secara up-to-date.</p>
+                <div class="flex items-center gap-3 mt-2">
+                    <a href="https://www.instagram.com/chips.teen" target="_blank" class="w-9 h-9 rounded-xl bg-cream/10 flex items-center justify-center text-cream hover:bg-primary hover:text-dark transition duration-300 shadow-md">
+                        <i class="fab fa-instagram text-base"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@chipsteen_" target="_blank" class="w-9 h-9 rounded-xl bg-cream/10 flex items-center justify-center text-cream hover:bg-primary hover:text-dark transition duration-300 shadow-md">
+                        <i class="fab fa-tiktok text-base"></i>
+                    </a>
+                    <a href="https://wa.me/6289524108217" target="_blank" class="w-9 h-9 rounded-xl bg-cream/10 flex items-center justify-center text-cream hover:bg-primary hover:text-dark transition duration-300 shadow-md">
+                        <i class="fab fa-whatsapp text-base"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-cream/50">
+            <p>&copy; 2026 Chipsteen Indonesia. Hak Cipta Dilindungi Undang-Undang.</p>
+            <div class="flex gap-4 mt-4 sm:mt-0">
+                <a href="#" class="hover:underline">Kebijakan Privasi</a>
+                <span>&bull;</span>
+                <a href="#" class="hover:underline">Syarat & Ketentuan</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-24 right-6 z-40 w-12 h-12 rounded-full bg-secondary hover:bg-primary text-cream hover:text-dark shadow-xl opacity-0 translate-y-10 pointer-events-none transition-all duration-300 flex items-center justify-center border border-white/20">
+        <i class="fas fa-arrow-up text-lg"></i>
+    </button>
+
+    <!-- Floating WhatsApp Shortcut Button -->
+    <a href="https://wa.me/6289524108217?text=Halo%20Chipsteen,%20saya%20mau%20order%20kripik%20kulit%20patin" target="_blank" class="fixed bottom-6 right-6 z-40 bg-success hover:bg-[#205020] text-white px-5 py-3 rounded-full shadow-2xl transition duration-300 flex items-center gap-2 font-heading font-extrabold text-sm border border-white/20">
+        <i class="fab fa-whatsapp text-2xl"></i>
+        <span>Pesan Langsung</span>
+    </a>
+
+    <!-- Script Logic Implementation -->
+    <script>
+        // ==========================================
+        // CONFIGURASI UTAMA LOADING SCREEN
+        // ==========================================
+        // Nilai dalam milidetik (ms). 1000 ms = 1 detik.
+        // Ubah angka 3000 (3 detik) sesuai keinginan Anda, contoh: 5000 untuk 5 detik.
+        const DURASI_LOADING_MINIMAL = 3000; 
+
+        // 1. Loading Screen Disappearence logic dengan kustomisasi delay
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loader');
+            
+            setTimeout(() => {
+                loader.style.opacity = '0';
+                setTimeout(() => {
+                    loader.classList.add('hidden');
+                    
+                    // Memicu scroll reveal & counter setelah screen selesai loading
+                    triggerScrollReveal();
+                    initCounters();
+                }, 700); // 700ms adalah durasi transisi fade-out Tailwind CSS
+            }, DURASI_LOADING_MINIMAL);
+        });
+
+        // 2. Poster Modal Interactive Logic (Buka/Tutup dengan tombol X 'Kembali')
+        const posterModal = document.getElementById('poster-modal');
+        const posterModalContent = document.getElementById('poster-modal-content');
+        const openModalImg = document.getElementById('open-poster-modal-img');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+
+        function openPosterModal() {
+            posterModal.classList.remove('hidden');
+            // Memicu reflow layout agar animasi transition berjalan optimal
+            posterModal.offsetHeight;
+            posterModal.classList.add('opacity-100');
+            posterModalContent.classList.remove('scale-95');
+            posterModalContent.classList.add('scale-100');
+            document.body.style.overflow = 'hidden'; // Kunci scroll latar belakang
+        }
+
+        function closePosterModal() {
+            posterModal.classList.remove('opacity-100');
+            posterModalContent.classList.remove('scale-100');
+            posterModalContent.classList.add('scale-95');
+            document.body.style.overflow = ''; // Aktifkan kembali scroll
+            setTimeout(() => {
+                posterModal.classList.add('hidden');
+            }, 500);
+        }
+
+        if (openModalImg) openModalImg.addEventListener('click', openPosterModal);
+        if (closeModalBtn) closeModalBtn.addEventListener('click', closePosterModal);
+
+        // Menutup modal jika area di luar gambar poster diklik
+        posterModal.addEventListener('click', (e) => {
+            if (e.target === posterModal) {
+                closePosterModal();
+            }
+        });
+
+        // Menutup modal menggunakan tombol 'Escape' di keyboard
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !posterModal.classList.contains('hidden')) {
+                closePosterModal();
+            }
+        });
+
+        // 3. Sticky Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('py-2');
+                navbar.querySelector('.glass').classList.add('shadow-xl', 'bg-cream/95');
+            } else {
+                navbar.classList.remove('py-2');
+                navbar.querySelector('.glass').classList.remove('shadow-xl', 'bg-cream/95');
+            }
+
+            // Back to top appearance detection
+            const b2t = document.getElementById('back-to-top');
+            if (window.scrollY > 500) {
+                b2t.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
+            } else {
+                b2t.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+            }
+        });
+
+        // Back to top scroll execution
+        document.getElementById('back-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // 4. Mobile Navigation Menu Toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const icon = menuToggle.querySelector('i');
+            if (mobileMenu.classList.contains('hidden')) {
+                icon.className = 'fas fa-bars';
+            } else {
+                icon.className = 'fas fa-xmark';
+            }
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuToggle.querySelector('i').className = 'fas fa-bars';
+            });
+        });
+
+        // 5. Testimonial Slider Auto-slide logic
+        let activeSlideIndex = 0;
+        const totalSlides = 3;
+        const sliderContainer = document.getElementById('testimonial-container');
+        const dots = document.getElementById('slider-dots').children;
+
+        function updateSliderPosition() {
+            sliderContainer.style.transform = `translateX(-${activeSlideIndex * 100}%)`;
+            for (let i = 0; i < dots.length; i++) {
+                if (i === activeSlideIndex) {
+                    dots[i].classList.replace('bg-secondary/30', 'bg-primary');
+                } else {
+                    dots[i].classList.replace('bg-primary', 'bg-secondary/30');
+                }
+            }
+        }
+
+        function goToSlide(index) {
+            activeSlideIndex = index;
+            updateSliderPosition();
+        }
+
+        // Auto sliding loop every 5 seconds
+        setInterval(() => {
+            activeSlideIndex = (activeSlideIndex + 1) % totalSlides;
+            updateSliderPosition();
+        }, 5000);
+
+        // 6. FAQ Accordion Toggle Interaction
+        function toggleFAQ(index) {
+            const answer = document.getElementById(`faq-answer-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            const isOpened = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+
+            // Close all FAQ first
+            for (let i = 0; i < 5; i++) {
+                const ans = document.getElementById(`faq-answer-${i}`);
+                const ic = document.getElementById(`faq-icon-${i}`);
+                if (ans) {
+                    ans.style.maxHeight = '0px';
+                    ic.style.transform = 'rotate(0deg)';
+                    ic.innerHTML = '<i class="fas fa-plus"></i>';
+                }
+            }
+
+            if (!isOpened) {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                icon.style.transform = 'rotate(45deg)';
+                icon.innerHTML = '<i class="fas fa-plus"></i>';
+            }
+        }
+
+        // 7. Scroll Reveal Animation Logic
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        function triggerScrollReveal() {
+            const triggerBottom = window.innerHeight * 0.85;
+            revealElements.forEach(elem => {
+                const elemTop = elem.getBoundingClientRect().top;
+                if (elemTop < triggerBottom) {
+                    elem.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', triggerScrollReveal);
+
+        // 8. Animated Counter Logic (using standard JS Observer)
+        let countersInitiated = false;
+        function initCounters() {
+            const counterSection = document.getElementById('counter-section');
+            if (!counterSection) return;
+
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting && !countersInitiated) {
+                    countersInitiated = true;
+                    
+                    // Standard integer counters
+                    const counters = document.querySelectorAll('.counter');
+                    counters.forEach(counter => {
+                        const target = +counter.getAttribute('data-target');
+                        const duration = 2000; // 2 seconds
+                        const stepTime = 20;
+                        const increment = target / (duration / stepTime);
+                        let current = 0;
+
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= target) {
+                                counter.innerText = target;
+                                clearInterval(timer);
+                            } else {
+                                counter.innerText = Math.floor(current);
+                            }
+                        }, stepTime);
+                    });
+
+                    // Float point counters
+                    const floatCounters = document.querySelectorAll('.counter-float');
+                    floatCounters.forEach(counter => {
+                        const target = parseFloat(counter.getAttribute('data-target'));
+                        const duration = 2000;
+                        const stepTime = 20;
+                        const increment = target / (duration / stepTime);
+                        let current = 0;
+
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= target) {
+                                counter.innerText = target.toFixed(1);
+                                clearInterval(timer);
+                            } else {
+                                counter.innerText = current.toFixed(1);
+                            }
+                        }, stepTime);
+                    });
+                }
+            }, { threshold: 0.1 });
+
+            observer.observe(counterSection);
+        }
+    </script>
+</body>
+</html>
